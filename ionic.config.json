@@ -1,0 +1,7 @@
+{
+  "name": "nan_hotspot",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
