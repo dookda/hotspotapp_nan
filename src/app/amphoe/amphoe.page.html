@@ -3,16 +3,14 @@
     <ion-item>
       <img
         src="https://images.vexels.com/media/users/3/137244/isolated/preview/c6b689bd0d2f7baaad783f9b6baa5263-cartoon-fire-illustration-by-vexels.png"
-        width="30%"
-        alt=""
-      />
+        width="30%" alt="" />
       <ion-label>จำนวน hotspot รายตำบล</ion-label>
       <ion-button color="danger" slot="end" (click)="closeModal()">
         <ion-icon name="close-circle"></ion-icon>&nbsp;ปิด
       </ion-button>
     </ion-item>
   </div>
-
+  <!-- test -->
   <p></p>
 
   <div class="opci">
@@ -39,13 +37,7 @@
         <h2>ต.{{a.tb_tn}}</h2>
       </ion-label>
       <p>{{a.count}} จุด</p>
-      <ion-button
-        fill="outline"
-        color="danger"
-        slot="end"
-        (click)="gotoTamHP(a)"
-        >View</ion-button
-      >
+      <ion-button fill="outline" color="danger" slot="end" (click)="gotoTamHP(a)">View</ion-button>
     </ion-item>
   </div>
 </ion-content>
